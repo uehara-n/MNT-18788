@@ -1,0 +1,84 @@
+@charset "UTF-8";
+/*レスポンシブサイズ設定*/
+.top_bnr {
+  margin-bottom: 20px; text-align:center; }
+  
+
+
+.t_from {
+  margin-bottom: 20px; }
+
+/*施工事例*/
+.t_seko .t_tit {
+  margin-bottom: 15px; }
+.t_seko .inner {
+  -js-display: flex;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 15px; }
+  .t_seko .inner .box {
+    margin: 0 3% 15px 0;
+    width: 48%; }
+    .t_seko .inner .box:nth-child(2n) {
+      margin-right: 0; }
+    .t_seko .inner .box .pic, .t_seko .inner .box .tit, .t_seko .inner .box .name {
+      display: block;
+      margin-bottom: 5px; }
+.t_seko .more {
+  padding: 0 15px 15px; }
+
+/*お客様の声*/
+.t_voice .t_tit {
+  margin-bottom: 15px; }
+.t_voice .inner {
+  -js-display: flex;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 15px; }
+  .t_voice .inner .box {
+    margin: 0 3% 15px 0;
+    width: 48%; }
+    .t_voice .inner .box:nth-child(2n) {
+      margin-right: 0; }
+    .t_voice .inner .box .pic, .t_voice .inner .box .tit, .t_voice .inner .box .text {
+      display: block;
+      margin-bottom: 5px; }
+    .t_voice .inner .box .text {
+      line-height: 1.5em; }
+.t_voice .more {
+  padding: 0 15px 15px; }
+
+/*ブログ類*/
+.t_blog {
+  background: #dbe2f5;
+  padding: 15px; }
+  .t_blog .t_tit {
+    width: 20%;
+    text-align: center;
+    margin: auto auto 10px; }
+  .t_blog .in_block {
+    -js-display: flex;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px; }
+    .t_blog .in_block .pic {
+      width: 50%;
+      order: 1; }
+    .t_blog .in_block .detail {
+      width: 48%;
+      order: 2; }
+      .t_blog .in_block .detail .blog_tit {
+        margin-bottom: 10px; }
+      .t_blog .in_block .detail .text {
+        line-height: 1.5em; }
+
+/*お知らせ*/
+#oshirase {
+    width: 90%;
+    border: double 5px #F00;
+    padding: 10px;
+    margin: 0 auto 20px;
+    line-height: 1.6em;
+    font-size: 12px;
+    text-align: left;
+}
